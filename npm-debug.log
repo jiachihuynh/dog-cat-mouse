@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'init' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly package data { name: '1commit',
+4 silly package data   version: '1.0.0',
+4 silly package data   description: 'This is how I use git',
+4 silly package data   main: 'index.js',
+4 silly package data   dependencies: {},
+4 silly package data   devDependencies: {},
+4 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+4 silly package data   author: '',
+4 silly package data   license: 'ISC' }
+5 info init written successfully
+6 verbose stack Error: EACCES: permission denied, open '/home/jiachihuynh/Desktop/coders.tokyo/git/1commit/package.json'
+7 verbose cwd /home/jiachihuynh/Desktop/coders.tokyo/git/1commit
+8 error Linux 4.15.0-43-generic
+9 error argv "/usr/bin/node" "/usr/bin/npm" "init"
+10 error node v8.10.0
+11 error npm  v3.5.2
+12 error path /home/jiachihuynh/Desktop/coders.tokyo/git/1commit/package.json
+13 error code EACCES
+14 error errno -13
+15 error syscall open
+16 error Error: EACCES: permission denied, open '/home/jiachihuynh/Desktop/coders.tokyo/git/1commit/package.json'
+16 error  { Error: EACCES: permission denied, open '/home/jiachihuynh/Desktop/coders.tokyo/git/1commit/package.json'
+16 error   errno: -13,
+16 error   code: 'EACCES',
+16 error   syscall: 'open',
+16 error   path: '/home/jiachihuynh/Desktop/coders.tokyo/git/1commit/package.json' }
+17 error Please try running this command again as root/Administrator.
+18 verbose exit [ -13, true ]
